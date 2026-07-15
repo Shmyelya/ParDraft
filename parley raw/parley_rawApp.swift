@@ -11,7 +11,7 @@ import SwiftUI
 struct parley_rawApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SettingsView()
         }
     }
 }
