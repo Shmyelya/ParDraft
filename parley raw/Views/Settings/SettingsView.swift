@@ -34,7 +34,7 @@ struct SettingsView: View {
                     
                     TextEditor(text: $bioText)
                         .scrollContentBackground(.hidden)
-                        .background(.gray.tertiary)
+                        .background(.ultraThinMaterial)
                         .frame(height: 200)
 //                        .padding()
 //                        .background(Color.gray.opacity(0.1))
